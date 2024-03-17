@@ -12,7 +12,7 @@ Use this website to generate badges: https://shields.io/
 <!-- Any image aligned to the right. Beware the width -->
 </p>
 <p align="center">
-  <img width="750" alt="banner" src="https://img.freepik.com/foto-gratis/tecnologia-primer-plano-placa-base-procesador-computadora-placa-circuito-microchip-integrado-luz-neon_90220-1203.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1710547200&semt=sph">
+  <img width="850" alt="banner" src="https://img.freepik.com/foto-gratis/tecnologia-primer-plano-placa-base-procesador-computadora-placa-circuito-microchip-integrado-luz-neon_90220-1203.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1710547200&semt=sph">
 </p>
 <h2 align="left">👨🏻‍💻 Acerca de  mi:</h2>
 <p align="center">Estudiante de desarrollo de software en el Campus Tecnologico  42 Madrid 💻 💿 👨‍💻
@@ -21,7 +21,7 @@ Use this website to generate badges: https://shields.io/
 
 - 📫 How to reach me: higuitaruben@hotmail.com;
 
-**Languages and Tools:** 
+**Lenguajes y Herramientas:** 
 
 
   <!-- Languages and tools. 
@@ -38,7 +38,7 @@ Use this website to generate badges: https://shields.io/
   <br />
 </p>
 
-## My Github Information 📊
+## Mi Informacion de Github 📊
 
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=higrub89&show_icons=true&locale=en" alt="higrub89" /></p>
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=higrub89&" alt="higrub89" /></p>
