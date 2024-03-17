@@ -19,24 +19,7 @@ Use this website to generate badges: https://shields.io/
 <p align="center">Estudiante de desarrollo de software en el Campus Tecnologico  42 Madrid 💻 💿 👨‍💻
 
 </details>
-
-<details>
-  <summary>🇬🇧 English</summary>
-  
-  ### English
-
-<p align="center">Software development student in 42 Madrid 💻 💿 👨‍💻
-  
-</details>
-
-<details>
-  <summary>🇫🇷 Français</summary>
-  
-  ### Français
-
-<p align="center">Étudiant en développement logiciel à 42 Madrid 💻 💿 👨‍💻
-
-</details>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=higrub89&label=Vistas%20Perfil&color=0e75b6&style=flat" alt="higrub89" /> </p>
 
 
 - 📫 How to reach me: higuitaruben@hotmail.com;
@@ -61,5 +44,5 @@ Use this website to generate badges: https://shields.io/
 ## My Github Information 📊
 
 <p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=higrub89&show_icons=true&locale=en" alt="higrub89" /></p>
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=higrub89&" alt="higrub89" /></p>
 
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jurodrig&" alt="higrub89" /></p>
