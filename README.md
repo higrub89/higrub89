@@ -60,6 +60,6 @@ Use this website to generate badges: https://shields.io/
 
 ## My Github Information 📊
 
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jurodrig&show_icons=true&locale=en" alt="jurodrig" /></p>
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=higrub89&show_icons=true&locale=en" alt="higrub89" /></p>
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jurodrig&" alt="higrub89" /></p>
