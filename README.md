@@ -1,4 +1,4 @@
-## Hi, I'm RUBEN HIGUITA 👋.
+<h1 align="center">Hola 👋, Soy Ruben Dario Higuita</h1>
 
 <!-- Badges
 Use this website to generate badges: https://shields.io/
@@ -8,19 +8,16 @@ Use this website to generate badges: https://shields.io/
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/higrub89/)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:higuitaruben@hotmail.com)
 &nbsp;
-
-**About me:**
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=higrub89&label=Vistas%20Perfil&color=0e75b6&style=flat" alt="higrub89" /> </p>
 <!-- Any image aligned to the right. Beware the width -->
 </p>
 <p align="center">
-  <img width="500" alt="banner" src="https://img.freepik.com/fotos-premium/elegante-fondo-codigo-programacion-tono-lavanda-destaca-naturaleza-sofisticada-trabajo-desarrolladores-software-intrincadas-secuencias-comandos-informaticas_674594-6193.jpg?w=2000">
+  <img width="750" alt="banner" src="https://img.freepik.com/foto-gratis/tecnologia-primer-plano-placa-base-procesador-computadora-placa-circuito-microchip-integrado-luz-neon_90220-1203.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1710547200&semt=sph">
 </p>
-
+<h2 align="left">👨🏻‍💻 Acerca de  mi:</h2>
 <p align="center">Estudiante de desarrollo de software en el Campus Tecnologico  42 Madrid 💻 💿 👨‍💻
 
 </details>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=higrub89&label=Vistas%20Perfil&color=0e75b6&style=flat" alt="higrub89" /> </p>
-
 
 - 📫 How to reach me: higuitaruben@hotmail.com;
 
