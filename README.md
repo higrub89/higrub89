@@ -1,8 +1,8 @@
-<h1 align="center">Hola 👋, Soy Rubén Darío Higuita</h1>
+<h1 align="center"> Rubén Darío Higuita </h1>
 
 <p align="center">
   <a href="https://higrub89.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portafolio%20Web-100000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio Web" />
+    <img src="https://img.shields.io/badge/Portafolio%20Web-100000?style=for-the-badge&logo=github&logoColor=white" alt="Portafolio Web" />
   </a>
   <a href="https://www.linkedin.com/in/higrub89/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -19,11 +19,11 @@
 
 ---
 
-## 👨🏻‍💻 Acerca de mí: El Desarrollador de Sistemas Embebidos
+## 👨🏻‍💻 Acerca de mí: - El MECÁNICO A DESARROLLADOR DE SOFTWARE -
 
-**Estudiante de programación en @42Madrid.** ⚙️ Apasionado por la intersección entre el **hardware** y el **software**.
+**Estudiante de programación en @42Madrid.** ⚙️ Apasionado por  los vehiculos y la intersección entre el **hardware** y el **software**.
 
-Mi foco es el **Desarrollo de Sistemas Embebidos** utilizando **C/C++**, con el objetivo de optimizar y programar componentes electrónicos. Ex-mecánico profesional, aporto una **visión práctica y resolutiva** al desarrollo de proyectos, ideal para la industria **automotriz**.
+Mecánico reconvertido en desarrollador de software (42 Madrid). ⚙️ Con una sólida trayectoria de 10 años en el sector automotriz, ahora aplico mi visión de sistemas y hardware al mundo del código. Mi enfoque es la innovación y el desarrollo de software y  sistemas embebidos para la nueva generación de vehículos.
 
 - 📫 **Contacto directo:** higuitaruben@hotmail.com
 
