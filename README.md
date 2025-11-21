@@ -19,9 +19,9 @@
 
 ---
 
-## 👨🏻‍💻 Acerca de mí: - El MECÁNICO A DESARROLLADOR DE SOFTWARE -
+## 👨🏻‍💻 Acerca de mí: --- DE MECÁNICO PROFESIONAL A DESARROLLADOR DE SOFTWARE ---
 
-**Estudiante de programación en @42Madrid.** ⚙️ Apasionado por  los vehiculos y la intersección entre el **hardware** y el **software**.
+**Soy un estudiante de programación en @42Madrid.** ⚙️ Apasionado por  los vehiculos y la intersección entre el **hardware** y el **software**.
 
 Mecánico reconvertido en desarrollador de software (42 Madrid). ⚙️ Con una sólida trayectoria de 10 años en el sector automotriz, ahora aplico mi visión de sistemas y hardware al mundo del código. Mi enfoque es la innovación y el desarrollo de software y  sistemas embebidos para la nueva generación de vehículos.
 
