@@ -1,61 +1,48 @@
-<h1 align="center"> Rubén Darío Higuita </h1>
+# [RUBÉN D. HIGUITA] | Systems & Telemetry Architect
 
-<p align="center">
-  <a href="https://higrub89.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portafolio%20Web-100000?style=for-the-badge&logo=github&logoColor=white" alt="Portafolio Web" />
-  </a>
-  <a href="https://www.linkedin.com/in/higrub89/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:higuitaruben@hotmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-</p>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=higrub89&label=Vistas%20Perfil&color=0e75b6&style=flat" alt="higrub89" /> </p>
-
-<p align="center">
-  <img width="850" alt="banner" src="https://img.freepik.com/foto-gratis/tecnologia-primer-plano-placa-base-procesador-computadora-placa-circuito-microchip-integrado-luz-neon_90220-1203.jpg?size=626&ext=jpg&ga=GA1.1.1319243779.1710547200&semt=sph">
-</p>
+> Low-Level & Deterministic Systems Engineer | Defense, Aerospace & Telemetry Domains.  
+> Core Focus: POSIX-compliant daemons, non-blocking event-driven engines, zero-copy serialization, and real-time telemetry ingestion.
 
 ---
 
-## 👨🏻‍💻 Acerca de mí: --- DE MECÁNICO PROFESIONAL A DESARROLLADOR DE SOFTWARE ---
+### System Architecture & Technical Specifications
 
-**Soy un estudiante de programación en @42Madrid.** ⚙️ Apasionado por  los vehiculos y la intersección entre el **hardware** y el **software**.
-
-Mecánico reconvertido en desarrollador de software (42 Madrid). ⚙️ Con una sólida trayectoria de 10 años en el sector automotriz, ahora aplico mi visión de sistemas y hardware al mundo del código. Mi enfoque es la innovación y el desarrollo de software y  sistemas embebidos para la nueva generación de vehículos.
-
-- 📫 **Contacto directo:** higuitaruben@hotmail.com
-
----
-
-## 🛠️ Lenguajes y Herramientas
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-  <br/>
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <br/>
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Git%20Bash-231F20?style=for-the-badge&logo=git&logoColor=white" alt="Git Bash" />
-  <br/>
-  <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
-</p>
+| Domain | Implementations & Toolchains | Standards & Compliance |
+| :--- | :--- | :--- |
+| **Low-Level & Embedded** | C (C99/C11), Modern C++ (C++20), C++98, Rust | POSIX.1-2017, ISO/IEC 9899, MISRA-C |
+| **Concurrency & Systems** | Multithreading, I/O Multiplexing (`epoll`), Lock-Free Buffers | Zero Dynamic Allocation in Fast-Path, Real-Time |
+| **Telemetry & Networking**| Protocol Decoders, Bluetooth LE (`btleplug`), ZeroMQ, UDP Multicast | Tail-latency optimization, Bit-level Serialization |
+| **Tooling & Verification**| Linux Kernel internals, GDB, Valgrind, LLVM Sanitizers (ASan/TSan) | IEEE 12207, MIL-STD-882E Architectural Models |
 
 ---
 
-## Mi Actividad en GitHub 📊
+### Flagship Systems Architecture (Pinned Repositories)
 
-<p align="center">
-  &nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=higrub89&show_icons=true&locale=es&theme=radical" alt="higrub89 - GitHub Stats" />
-  <br/>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=higrub89&theme=radical" alt="higrub89 - Streak" />
-</p>
+#### 1. Non-Blocking Event-Driven Network Engine (C++98 / POSIX)
+* **Target:** Servidor multiplexado sin dependencias externas sobre sockets no bloqueantes.
+* **Architecture:** Máquina de Estados Finitos (FSM) determinista sobre `select`/`poll`/`epoll`.
+* **Memory Model:** Cero asignaciones dinámicas (`heap`) dentro del bucle de eventos; reciclaje determinista de buffers.
+* **Verification:** Perfil de memoria limpio verificado bajo Valgrind (0 bytes perdidos); compilación estricta bajo `-Wall -Wextra -Werror -pedantic`.
+
+#### 2. High-Throughput Real-Time Telemetry Pipeline (Rust)
+* **Target:** Ingestión y procesamiento de telemetría en tiempo real de flujo continuo sin latencia de asignación en tiempo de ejecución.
+* **Architecture:** Demonio asíncrono de borde sobre BLE/Serial con canales lock-free SPSC (Single-Producer Single-Consumer).
+* **Throughput:** Parser binario zero-copy con latencia de procesamiento tail en el rango de sub-microsegundos.
+* **Safety:** Límites de `unsafe` formalmente delimitados y auditados vía `cargo clippy -- -D warnings` y `cargo miri`.
+
+#### 3. Microservices & Network Virtualization Infrastructure (Docker / Nginx)
+* **Target:** Infraestructura de red aislada y contenerizada, diseñada para despliegue determinista y tolerancia a fallos.
+* **Architecture:** Segmentación estricta de servicios, terminación TLSv1.3 y demonios de inicialización POSIX sin overhead de systemd.
+
+---
+
+### Engineering Invariants
+
+```text
++--------------------------------------------------------------------------+
+| INVARIANT 1: Zero dynamic allocation (malloc/free/new) in critical paths |
+| INVARIANT 2: Zero compiler warnings permitted (-Werror / Clippy deny)    |
+| INVARIANT 3: Mandatory Sanitizer coverage (ASan, TSan, UBSan) in CI/CD   |
+| INVARIANT 4: POSIX.1-2017 & ISO standard strict adherence                |
++--------------------------------------------------------------------------+
+```
