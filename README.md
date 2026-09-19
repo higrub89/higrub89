@@ -1,6 +1,6 @@
 # Rubén D. Higuita
 **Low-Level Systems Developer | C / C++ / POSIX — building toward Defense & Aerospace Software Engineering**
-Madrid, Spain • [LinkedIn](https://www.linkedin.com/in/higrub89/) • [Mail](higuitaruben@hotmail.com)
+Madrid, Spain • [LinkedIn](https://www.linkedin.com/in/higrub89/) • Mail : higuitaruben@hotmail.com
 
 ---
 
