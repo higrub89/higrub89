@@ -1,95 +1,104 @@
 # Rubén D. Higuita
-**Systems & Embedded Software Engineer | High-Performance Powertrain, Telemetry & Defense Systems**  
-Madrid, Spain • [LinkedIn](https://www.linkedin.com/in/higrub89/) • `higuitaruben@hotmail.com` • [Portfolio](https://higrub89.github.io)
+
+**Systems Engineer — Powertrain Diagnostics, Defense ILS, Low-Level Software**
+
+Madrid, Spain
+
+[LinkedIn](https://www.linkedin.com/in/higrub89/) · [Portfolio](https://higrub89.github.io) · `higuitaruben@hotmail.com`
 
 ---
 
-### Engineering Profile
+### Background
 
-Systems and embedded software engineer operating at the convergence of mission-critical hardware, deterministic real-time execution, and low-level software architecture. 
+A decade of hands-on electromechanical engineering across the most demanding powertrain platforms in the world, followed by a deliberate transition into systems-level software.
 
-Over a decade of hands-on electromechanical and systems engineering across tier-one high-performance platforms (**Ferrari**, **Lamborghini**, **MV Agusta**) and high-voltage marine electro-propulsion (**SEABOB / CAYAGO AG**). Currently active inside the aerospace and defense engineering ecosystem (**Sonovision Ingenieros España**), authoring and validating systems-level technical documentation for tactical land vehicle platforms (Renault VPTL program), electrical schematic verification, and CAN-Bus network topologies.
-
-This cross-disciplinary foundation unites hardware diagnostics, signal integrity, and fault isolation with deterministic memory management, concurrency arbitration, and POSIX-compliant systems programming.
+The mechanical side built an instinct for fault isolation, signal integrity, and zero-tolerance diagnostics under conditions where failure is not an option. The software side is built with the same discipline: deterministic memory management, concurrency control, and POSIX systems programming compiled under `-Wall -Wextra -Werror`.
 
 ---
 
-### Systems Execution Hierarchy
+### Industry Experience
 
-```
-+==========================================================================+
-| APPLICATION & PROTOCOL LAYER                                             |
-| Custom network daemons, telemetry parsers, multithreaded runtime engines |
-+==========================================================================+
-                              |
-                              v  [Syscalls: socket, epoll, fork, pipe, mmap]
-+==========================================================================+
-| OS & RUNTIME ENVIRONMENT (POSIX.1-2017 / FreeRTOS)                       |
-| Deterministic scheduling, virtual memory, pthreads, signal-safe traps   |
-+==========================================================================+
-                              |
-                              v  [VFS, Register-Direct I/O, Hardware Buses]|
-+==========================================================================+
-| PHYSICAL & EMBEDDED INTERFACE LAYER                                      |
-| STM32H7 (ARM Cortex-M7), CAN-FD (8 Mbps), ISO 11898, High-Voltage Powertrain|
-+==========================================================================+
-```
+**Defense & Aerospace — ILS Engineering**
+Sonovision Ingenieros España. Integrated Logistics Support (ILS) for tactical military vehicle programs. Authoring and validation of technical repair and maintenance documentation for armored and utility platforms: **VEMPAR**, **VPTL** (Renault Trucks Defense), and **multilift tipper platforms**. Electrical schematic interpretation, wiring harness verification, and CAN-Bus network topology analysis for documentation accuracy across defense-grade ground systems.
+
+**Hyperluxury Automotive — Supercars**
+Ferrari, Lamborghini. Complete powertrain diagnostics, electronic fault isolation, and high-voltage systems servicing on V8/V10/V12 naturally aspirated and turbocharged architectures. OBD-II / proprietary diagnostic protocol interfacing.
+
+**High-Performance Motorcycles**
+MV Agusta, Ducati, Honda, Yamaha. Engine management calibration, fuel injection mapping, suspension geometry setup, and race-preparation mechanical builds across inline-4, V-twin, and L-twin configurations.
+
+**Marine & Aquatic Propulsion**
+SEABOB (CAYAGO AG, Germany) — Certified specialist in high-voltage electric-drive diagnostics and powertrain service for F5 and F9 marine propulsion units. Jet Ski Kawasaki — 2-stroke and 4-stroke marine engine overhaul and watercraft hull systems.
+
+**Off-Road & Utility Vehicles**
+CF Moto buggies and quads. Powertrain service, CVT transmission systems, and electrical diagnostics across utility and recreational all-terrain platforms.
 
 ---
 
-### Technical Capabilities & Standards
+### Software Engineering
 
-| Domain | Toolchain & Protocols | Standards & Verification |
+Currently building deep systems-level foundations through two concurrent academic tracks and professional-grade project work:
+
+**42 Madrid** (Fundación Telefónica) — Peer-reviewed systems software engineering curriculum. Common Core in progress. All projects compiled under strict `-Wall -Wextra -Werror`, verified with Valgrind Memcheck and ThreadSanitizer, and deployed with GitHub Actions CI pipelines.
+
+**DAM — Desarrollo de Aplicaciones Multiplataforma** (CIPFPD La Rioja, distance) — Cross-platform application development. Object-oriented design, software architecture patterns, and database systems.
+
+**Additional Certifications:**
+- Advanced Linux Professional Administration (IFCT066PO, 100h) — SEPE / Comunidad de Madrid
+- .NET & C# Object-Oriented Programming
+- Software Engineering Methodologies for the Web
+
+---
+
+### Technical Stack
+
+| Layer | Technologies | Standards |
 | :--- | :--- | :--- |
-| **Languages** | C (C99/C11), C++ (C++98/C++20), POSIX Shell, Assembly | ISO/IEC 9899, ISO/IEC 14882, MISRA C:2012 |
-| **Embedded & Hardware** | STM32H743ZI (ARM Cortex-M7/M4), FreeRTOS, Bare-Metal | Register-direct peripheral access, zero-heap alloc |
-| **Buses & Telemetry** | CAN 2.0A/B, CAN-FD (8 Mbps), SocketCAN, UART, SPI, I2C | ISO 11898-1:2015, RM0433 timing constraints |
-| **Operating Systems** | Linux Kernel, POSIX.1-2017, Process Trees, IPC Pipelines | Deterministic IPC, `waitpid`, async-signal safety |
-| **Networking & Daemons**| Non-blocking BSD sockets, I/O multiplexing (`epoll`, `poll`) | RFC 7230–7235 HTTP/1.1, FSM state machines |
-| **Verification & Quality**| GCC, Clang, Makefiles, Valgrind Memcheck/Helgrind, TSan/ASan | `-Wall -Wextra -Werror -pedantic`, CI/CD |
+| **Languages** | C (C99/C11), C++ (C++98/C++20), POSIX Shell | ISO 9899, ISO 14882, MISRA C:2012 |
+| **Embedded** | STM32H743ZI (ARM Cortex-M7), FreeRTOS, Bare-Metal | Register-direct I/O, zero-heap invariants |
+| **Buses** | CAN 2.0A/B, CAN-FD (8 Mbps), SocketCAN, UART, SPI | ISO 11898-1:2015 |
+| **Systems** | Linux Kernel, POSIX.1-2017, IPC Pipelines, Pthreads | Deterministic process lifecycle |
+| **Networking** | Non-blocking BSD sockets, `epoll`/`poll` multiplexing | RFC 7230–7235 HTTP/1.1, FSM parsers |
+| **Verification** | Valgrind, Helgrind, TSan, ASan, GDB, Clang, GCC | `-Wall -Wextra -Werror -pedantic` |
+| **Infrastructure** | Docker, NGINX, TLSv1.3, GitHub Actions CI/CD | Network isolation, secret audit |
 
 ---
 
-### Flagship Systems & Architectures
+### Selected Projects
 
-#### 1. Hardware & Vehicle Telemetry
-* **[`canfd-gateway-h7`](https://github.com/higrub89/canfd-gateway-h7)** — *High-Throughput CAN-FD Gateway Architecture for STM32H743ZI*  
-  High-speed telemetry routing gateway operating at 8 Mbps data phase on ARM Cortex-M7. Implements direct-register peripheral configuration, zero-heap memory invariants, and FreeRTOS task segregation under MISRA C:2012 design constraints.
+**Embedded & Vehicle Telemetry**
 
-* **[`vehicle-can-telemetry-gateway`](https://github.com/higrub89/vehicle-can-telemetry-gateway)** — *Deterministic CAN Bus Telemetry Ingestion & Protocol Gateway*  
-  Industrial telemetry ingestion pipeline in modern C++ utilizing Linux SocketCAN and lockless message ring buffers for sub-millisecond dispatch to upstream broker services.
+[`canfd-gateway-h7`](https://github.com/higrub89/canfd-gateway-h7) — CAN-FD gateway on STM32H743ZI. 8 Mbps data phase, register-direct peripheral configuration, FreeRTOS task segregation, MISRA C:2012 compliance.
 
-#### 2. Network Daemons & Infrastructure
-* **[`webserv`](https://github.com/higrub89/webserv)** — *POSIX.1-2017 Non-Blocking Event-Driven HTTP Engine*  
-  Production-grade HTTP/1.1 web server in C++98. Asynchronous I/O multiplexing via single-threaded `epoll`/`poll` event loop, streaming FSM parser for chunked payloads, and isolated CGI process dispatch. Zero memory leaks validated with Valgrind (Pass with 125% bonus, 42 Madrid).
+[`vehicle-can-telemetry-gateway`](https://github.com/higrub89/vehicle-can-telemetry-gateway) — Industrial telemetry ingestion pipeline. Linux SocketCAN, lockless ring buffers, sub-millisecond broker dispatch.
 
-* **[`inception`](https://github.com/higrub89/inception)** — *High-Availability Microservices Infrastructure*  
-  Enterprise containerized stack on pure Debian. TLSv1.3 cryptographic termination on custom NGINX, isolated WordPress (PHP-FPM) and MariaDB backends locked into an internal bridge network with zero host port leaks, enforced by an automated GitHub Actions security CI suite.
+**Network Services & Infrastructure**
 
-#### 3. Concurrency & POSIX Execution
-* **[`philosophers`](https://github.com/higrub89/philosophers)** — *Hard Concurrency & Deadlock Prevention Harness*  
-  Multithreaded shared-resource arbitration engine in C with POSIX mutex hierarchies. Microsecond-precision timing synchronization, verified clean of data races via ThreadSanitizer and Helgrind.
+[`webserv`](https://github.com/higrub89/webserv) — HTTP/1.1 server in C++98. Single-threaded `epoll` event loop, FSM chunked parser, CGI subprocess isolation. Zero memory leaks. Pass with 125% bonus (42 Madrid).
 
-* **[`minishell`](https://github.com/higrub89/minishell)** — *POSIX-Compliant Command Execution Engine*  
-  Unix execution runtime implementing an Abstract Syntax Tree (AST) parser, robust inter-process communication pipelines, file descriptor redirection, and async-signal-safe process lifecycle control.
+[`inception`](https://github.com/higrub89/inception) — Containerized microservices stack. NGINX with TLSv1.3 termination, WordPress and MariaDB on isolated bridge network. Automated security CI suite.
 
----
+**Concurrency & POSIX Runtime**
 
-### Professional Background & Credentials
+[`philosophers`](https://github.com/higrub89/philosophers) — Multithreaded deadlock prevention engine. POSIX mutex hierarchies, microsecond-precision timing. Zero data races (TSan + Helgrind verified).
 
-* **Systems Software Engineering** — *42 Madrid (Fundación Telefónica)*. Common Core advanced systems curriculum.
-* **Technical Authoring & Systems Engineering** — *Sonovision Ingenieros España* (Aerospace & Defense). Technical repair, maintenance, and systems architecture documentation for the tactical Renault VPTL military vehicle program; electrical schematic interpretation and CAN-Bus topology validation.
-* **Certified High-Performance Electro-Drive Specialist** — *CAYAGO AG (Bad Salzuflen, Germany)*. Certified diagnostics and powertrain service on SEABOB F5 and F9 high-voltage marine electro-propulsion systems.
-* **Precision Automotive Engineering Experience** — Hands-on diagnostic, powertrain, and electromechanical engineering across supercar and high-performance racing platforms (**Ferrari**, **Lamborghini**, **MV Agusta**).
-* **Cross-Platform Software Engineering (DAM)** — *CIPFPD La Rioja* (In progress, bridging to B.Sc. in Computer Engineering).
+[`minishell`](https://github.com/higrub89/minishell) — POSIX command execution runtime. AST parser, `fork`/`execve`/`waitpid` process trees, `dup2` stream redirection, async-signal-safe traps.
+
+**Algorithmic & Systems Primitives**
+
+[`push_swap`](https://github.com/higrub89/push_swap) — Constrained stack sorting engine. K-Sort partitioning with O(n√n) operational complexity.
+
+[`cub3d`](https://github.com/higrub89/cub3d) — Real-time software raycasting engine. DDA grid traversal, direct framebuffer writes, zero GPU dependencies.
+
+[`pipex`](https://github.com/higrub89/pipex) — UNIX IPC pipeline implementation. Kernel pipe buffers, atomic `dup2` redirection, deterministic FD lifecycle.
 
 ---
 
-### Non-Negotiable Engineering Invariants
+### Engineering Constraints
 
-```text
-1. Memory Hygiene      : Zero reachable bytes / zero leaks under Valgrind Memcheck and ASan.
-2. Thread Safety       : Zero data races verified deterministically via TSan and Helgrind.
-3. Toolchain Rigor     : Strict compilation with -Wall -Wextra -Werror -pedantic.
-4. Defense Compliance  : Modular segregation of concerns (SoC), defensive boundary validation, zero secret commits.
+```
+Memory         Zero reachable bytes under Valgrind Memcheck and ASan
+Concurrency    Zero data races under TSan and Helgrind
+Compilation    -Wall -Wextra -Werror -pedantic on every build
+Commits        Conventional Commits, atomic scope, CI-verified before merge
 ```
