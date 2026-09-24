@@ -1,4 +1,4 @@
-# Ruben Dario Higuita
+# Rubén Darío Higuita Rubio
 
 **Systems Engineer · Low-Level & Embedded Software**
 
@@ -32,9 +32,9 @@ Zero reachable bytes · Zero data races · CI-verified before merge
 
 ---
 
-MADRID · [SONOVISION GROUP](https://www.sonovisiongroup.com/) · [42 NETWORK](https://www.42network.org/)
+· [Sonovision Group](https://www.sonovisiongroup.com/) · Madrid · [42 Network](https://www.42network.org/) ·
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/higrub89/)
 [![Email](https://img.shields.io/badge/Email-000000?style=flat-square&logo=mail.ru&logoColor=white)](mailto:higuitaruben@hotmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=googlechrome&logoColor=white)](https://higrub89.github.io/)
-[![42 Madrid](https://img.shields.io/badge/42_Madrid-000000?style=flat-square&logo=42&logoColor=white)](https://www.42network.org/)
+[![42 Madrid](https://img.shields.io/badge/42_Madrid-000000?style=flat-square&logo=42&logoColor=white)](https://www.fundaciontelefonica.com/campus-42/)
