@@ -1,4 +1,4 @@
-# Rubén D. Higuita
+# Ruben Dario Higuita
 
 **Systems Engineer · Low-Level & Embedded Software**
 
@@ -33,7 +33,7 @@ Zero reachable bytes · Zero data races · CI-verified before merge
 ---
 
 ```
-MADRID · 42 NETWORK · SONOVISION GROUP
-```
+MADRID · [SONOVISION GROUP](https://www.sonovisiongroup.com/) · 
+[42 NETWORK](https://www.42network.org/)```
 
 [LinkedIn](https://www.linkedin.com/in/higrub89/) · `higuitaruben@hotmail.com`
