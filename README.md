@@ -17,6 +17,19 @@ Formado en el diagnóstico de fallos mecánicos bajo tolerancias extremas,
 aplico la misma disciplina al software: gestión de memoria determinista,
 cero condiciones de carrera, código auditable de principio a fin.
 
+#### Zero-Leak Architecture
+Todo byte reservado y todo socket abierto se rastrea y libera de forma
+determinista, verificado con Valgrind y sanitizers en cada build.
+
+#### Tactical Concurrency
+Programación multihilo y sincronización POSIX, con prevención verificable
+de data races y deadlocks.
+
+#### Minimalist Elegance
+Código C/C++ depurado a su esencia: modular, con separación de
+responsabilidades y CI/CD que corre en cada push, no solo en la
+descripción.
+
 ---
 
 ### Industry Experience
@@ -104,4 +117,10 @@ Memory         Zero reachable bytes under Valgrind Memcheck and ASan
 Concurrency    Zero data races under TSan and Helgrind
 Compilation    -Wall -Wextra -Werror -pedantic on every build
 Commits        Conventional Commits, atomic scope, CI-verified before merge
+```
+
+---
+
+```
+LOCATION: MADRID · 42 NETWORK · SONOVISION INGENIEROS
 ```
