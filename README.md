@@ -1,6 +1,6 @@
 # Rubén D. Higuita
 
-**Systems Engineer — Powertrain Diagnostics, Defense ILS, Low-Level Software**
+## Systems Engineer · Low-Level & Embedded Software (en formación)
 
 Madrid, Spain
 
@@ -10,9 +10,12 @@ Madrid, Spain
 
 ### Background
 
-A decade of hands-on electromechanical engineering across the most demanding powertrain platforms in the world, followed by a deliberate transition into systems-level software.
+Ingeniería que combina una década de experiencia electromecánica de alto
+rendimiento con desarrollo de software de bajo nivel en C/C++ y POSIX.
 
-The mechanical side built an instinct for fault isolation, signal integrity, and zero-tolerance diagnostics under conditions where failure is not an option. The software side is built with the same discipline: deterministic memory management, concurrency control, and POSIX systems programming compiled under `-Wall -Wextra -Werror`.
+Formado en el diagnóstico de fallos mecánicos bajo tolerancias extremas,
+aplico la misma disciplina al software: gestión de memoria determinista,
+cero condiciones de carrera, código auditable de principio a fin.
 
 ---
 
