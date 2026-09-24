@@ -122,5 +122,5 @@ Commits        Conventional Commits, atomic scope, CI-verified before merge
 ---
 
 ```
-LOCATION: MADRID · 42 NETWORK · SONOVISION INGENIEROS
+MADRID · 42 NETWORK · SONOVISION GROUP
 ```
