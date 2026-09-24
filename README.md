@@ -1,6 +1,6 @@
 # Rubén D. Higuita
 
-## Systems Engineer · Low-Level & Embedded Software (en formación)
+## Systems Engineer · Low-Level & Embedded Software
 
 Madrid, Spain
 
