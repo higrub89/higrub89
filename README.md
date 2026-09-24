@@ -32,9 +32,6 @@ Zero reachable bytes · Zero data races · CI-verified before merge
 
 ---
 
-```
-MADRID · [SONOVISION GROUP](https://www.sonovisiongroup.com/) · 
-[42 NETWORK](https://www.42network.org/)
-```
+MADRID · [SONOVISION GROUP](https://www.sonovisiongroup.com/) · [42 NETWORK](https://www.42network.org/)
 
-[LinkedIn](https://www.linkedin.com/in/higrub89/) · `higuitaruben@hotmail.com`
+[LinkedIn](https://www.linkedin.com/in/higrub89/) · [`higuitaruben@hotmail.com`](mailto:higuitaruben@hotmail.com)
